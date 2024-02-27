@@ -26,7 +26,7 @@ Web app for visualization traffic statistic from TP-LINK routers.
 ## Notes
 - If your router show incorrect statistic - enable Bandwidth Control.
 - I also saw next recommendation, but in my case it was not needed.
-	> `After being in contact with tp-link techsupport iv'e found out that for Traffic Monitor to function properly you have to have either set QoS to something other than Standard or set at least one client as High Priority.`
+	> After being in contact with tp-link techsupport iv'e found out that for Traffic Monitor to function properly you have to have either set QoS to something other than Standard or set at least one client as High Priority.
 - Typically routers use non-encrypted web-interface (http), username and password for router admin panel transmitted over the network encoded with base64, same as browser. I not recommend use this app inside networks where your traffic can be sniffed.
 - TP-LINK router count IN and OUT traffic summary in one field and maximum number for this field is 4294967296 = 4.29GB = 4GiB.
 - IN and OUT speed also count in one field summary - this is why the displayed speed may exceed the maximum for your provider's tariff plan.
