@@ -5,7 +5,7 @@ Web app for visualization traffic statistic from TP-LINK routers.
 - Ready for mobile devices responsive design.
 - Speed units switching - bits/s or bytes/s.
 
-| tplinkstat screenshot                      | built in Traffic Statistics screenshot             |
+| tplinkstat screenshot                      | built-in Traffic Statistics screenshot             |
 | ------------------------------------------ | -------------------------------------------------- |
 | ![](screenshots/tplinkstat_screenshot.png) | ![](screenshots/traffic_statistics_screenshot.png) |
 
