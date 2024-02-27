@@ -1,0 +1,19 @@
+.chart-bar {
+  height: 20rem;
+}
+
+.chart-line {
+  height: 20rem;
+}
+
+.color_box {
+  display: inline;
+  padding: 0.1rem .5rem .2rem .5rem;
+
+}
+
+/*table heading sorting arrow after text*/
+.bootstrap-table .fixed-table-container .table thead th .sortable {
+  display:inline-block;
+}
+
