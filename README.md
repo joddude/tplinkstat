@@ -13,8 +13,35 @@ Web app for visualization traffic statistic from TP-LINK routers.
 #### Work
 - TP-Link TD-W8980
 - TP-Link TL-WR840N (not fully confirmed) - router does not finish own connections to statistic, only by timeout
-#### Not worked
+#### Not work
 - TP-Link Archer A6 4.0 - completely different type of authorization and encrypted response data
+#### Testing
+How understand this app can work with your router or not?
+- Open your router configuration page in browser, log in.
+- Find in menu and open 'Traffic Statistics', enabel it (see screenshot above).
+- Open development console by pressing F12 and switch to Network monitoring.
+- Wait some time, until statistic update.
+- Search in list request with url ending with 'cgi?1&5', select it.
+- Search responce for this request. If responce look like next fragment - we have a chance.
+```
+[0,0,0,0,0,0]0
+enable=1
+interval=10
+action=0
+[1,0,0,0,0,0]1
+ipAddress=3200000000
+macAddress=01:23:45:67:89:AB
+totalPkts=24005898
+totalBytes=2369574771
+currPkts=13
+currBytes=1843
+currIcmp=0
+currUdp=6
+currSyn=0
+currIcmpMax=1
+currUdpMax=10927
+currSynMax=98
+```
 
 ## Requirements
 - TP-LINK router.
