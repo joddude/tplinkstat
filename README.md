@@ -10,8 +10,11 @@ Web app for visualization traffic statistic from TP-LINK routers.
 | ![](screenshots/tplinkstat_screenshot.png) | ![](screenshots/traffic_statistics_screenshot.png) |
 
 ## Tested with
-- TD-W8980
-- TL-WR840N (not confirmed)
+#### Work
+- TP-Link TD-W8980
+- TP-Link TL-WR840N (not fully confirmed) - router does not finish own connections to statistic, only by timeout
+#### Not worked
+- TP-Link Archer A6 4.0 - completely different type of authorization and encrypted response data
 
 ## Requirements
 - TP-LINK router.
