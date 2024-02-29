@@ -481,6 +481,7 @@ function charts_init() {
         tooltip: {
           mode: 'index',
           intersect: false,
+          itemSort: function(a, b) {return b.raw - a.raw;},
           callbacks: {
             label: function(tooltipItems, data) {
               if (tooltipItems.raw) {
@@ -488,7 +489,11 @@ function charts_init() {
               } else {
                 return false;
               }
-            }
+            },
+            afterTitle: (tooltipItems, data) => {
+              let total = tooltipItems.reduce((a, e) => a + parseInt(e.raw), 0);
+              return 'Total: ' + format_speed(total);
+            },
           },
         },
       },
