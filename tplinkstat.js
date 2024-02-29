@@ -490,9 +490,9 @@ function charts_init() {
                 return false;
               }
             },
-            afterTitle: (tooltipItems, data) => {
+            title: (tooltipItems, data) => {
               let total = tooltipItems.reduce((a, e) => a + parseInt(e.raw), 0);
-              return 'Total: ' + format_speed(total);
+              return tooltipItems[0].label + ' - ' + format_speed(total);
             },
           },
         },
