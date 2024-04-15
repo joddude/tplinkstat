@@ -44,7 +44,7 @@ if ($result === FALSE) {
 }
 
 function router_request($tplinkurl, $post_data, $authorization_cookie) {
-  $timeout = 2;
+  global $timeout;
   $options = array(
       'http' => array(
           'header'  => "Content-type: text/plain\r\n".
