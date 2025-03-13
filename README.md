@@ -71,6 +71,6 @@ currSynMax=98
 This software is free and provided "as is" without any warranty. The author assumes no responsibility for any moral or material damage caused by the use of this software, any loss of profit as a result of or during use.
 
 ## Thank you for using
-If you like this app
+If you like this app, please consider donating. 
 
-<a href="https://www.buymeacoffee.com/joddude" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+https://donatello.to/joddude
